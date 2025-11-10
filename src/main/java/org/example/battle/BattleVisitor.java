@@ -1,4 +1,9 @@
 package org.example.battle;
 
-public class BattleVisitor {
+import org.example.model.PlayerMage;
+import org.example.model.Monster;
+
+public interface BattleVisitor {
+    void visitPlayerMage(PlayerMage target);
+    void visitMonster(Monster target);
 }

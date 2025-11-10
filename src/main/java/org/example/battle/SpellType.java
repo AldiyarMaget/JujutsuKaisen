@@ -1,4 +1,5 @@
 package org.example.battle;
 
-public class SpellType {
+public enum SpellType {
+    HIT, HEAL, SHIELD, FIRE
 }
